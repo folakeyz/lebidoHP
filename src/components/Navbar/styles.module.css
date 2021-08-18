@@ -1,0 +1,381 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    min-height: 5rem;
+    display: block;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navToggle {
+    display: none;
+}
+
+.webNavGrid {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    ;
+}
+
+.navItems {
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    padding: .5rem 2rem;
+    text-align: center;
+}
+
+.navItems img {
+    width: 50%;
+}
+
+.navItems a {
+    text-decoration: none;
+}
+
+.navItems svg {
+    font-size: 10px;
+    color: gray;
+}
+
+.navItems ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navItems ul li {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.navItems ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+
+.navPadding {
+    padding-top: 1rem;
+    padding-left: 30rem;
+}
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+    .navItems img {
+        width: 60%;
+    }
+
+    .navItems {
+        padding: .5rem;
+        text-align: left;
+    }
+
+
+    .navList {
+        padding: 1rem;
+    }
+
+    .navList ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .navList ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .navList ul li a {
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+        font-size: 13px;
+    }
+
+
+    .webNavGrid {
+        grid-template-columns: 75% 25%;
+    }
+
+    .navPadding {
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: none;
+    }
+
+    .navToggle {
+        padding: 2rem;
+        display: block;
+    }
+
+    .navToggle svg {
+        font-size: 2rem;
+        color: rgb(8, 143, 143);
+    }
+
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .navItems img {
+        width: 60%;
+    }
+
+    .navItems {
+        padding: .5rem;
+        text-align: left;
+    }
+
+
+    .navList {
+        padding: 1rem;
+    }
+
+    .navList ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .navList ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .navList ul li a {
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+        font-size: 13px;
+    }
+
+
+    .webNavGrid {
+        grid-template-columns: 75% 25%;
+    }
+
+    .navPadding {
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: none;
+    }
+
+    .navToggle {
+        padding: 2rem;
+        display: block;
+    }
+
+    .navToggle svg {
+        font-size: 2rem;
+        color: rgb(8, 143, 143);
+    }
+
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .navItems img {
+        width: 30%;
+    }
+
+    .navItems {
+        padding: .5rem;
+        text-align: left;
+    }
+
+
+    .navList {
+        padding: 1rem;
+    }
+
+    .navList ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .navList ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .navList ul li a {
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+        font-size: 13px;
+    }
+
+
+    .webNavGrid {
+        grid-template-columns: 75% 25%;
+    }
+
+    .navPadding {
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: none;
+    }
+
+    .navToggle {
+        padding: 2rem;
+        display: block;
+    }
+
+    .navToggle svg {
+        font-size: 2rem;
+        color: rgb(8, 143, 143);
+    }
+
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .navItems img {
+        width: 40%;
+    }
+
+    .navItems {
+        padding: .5rem;
+        text-align: left;
+    }
+
+
+    .navList {
+        padding: 1rem;
+    }
+
+    .navList ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .navList ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .navList ul li a {
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+        font-size: 13px;
+    }
+
+
+    .webNavGrid {
+        grid-template-columns: 75% 25%;
+    }
+
+    .navPadding {
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: none;
+    }
+
+    .navToggle {
+        padding: 2rem;
+        display: block;
+    }
+
+    .navToggle svg {
+        font-size: 2rem;
+        color: rgb(8, 143, 143);
+    }
+
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .webNavGrid {
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+
+    }
+
+    .navToggle {
+        display: none;
+    }
+
+    .navPadding {
+        padding-top: 2rem;
+        padding-left: 8rem;
+        display: block;
+    }
+
+    .navItems img {
+        width: 50%;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .webNavGrid {
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+    }
+
+    .navToggle {
+        display: none;
+    }
+
+    .navPadding {
+        padding-top: 2rem;
+        padding-left: 10rem;
+        display: block;
+    }
+
+    .navItems img {
+        width: 50%;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .webNavGrid {
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+    }
+
+    .navToggle {
+        display: none;
+    }
+
+    .navPadding {
+        padding-top: 2rem;
+        padding-left: 10rem;
+        display: block;
+    }
+
+    .navItems img {
+        width: 50%;
+    }
+}
